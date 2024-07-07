@@ -1,0 +1,18 @@
+two_digit_number = input()
+
+# print(type(two_digit_number))
+firstDigit=two_digit_number[0]
+secondDigit=two_digit_number[1]
+
+# print(firstDigit)
+# print(type(firstDigit))
+firstDigit=int(firstDigit)
+# print(type(firstDigit))
+
+# print(secondDigit)
+# print(type(secondDigit))
+secondDigit=int(secondDigit)
+# print(type(secondDigit))
+
+print(firstDigit+secondDigit)
+
