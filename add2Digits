@@ -17,8 +17,9 @@ secondDigit=int(secondDigit)
 print(firstDigit+secondDigit)
 
 
-#optimised version - delete the above except first line
+#optimised version 
 
+two_digit_number = input()
 firstDigit=int(two_digit_number[0])
 secondDigit=int(two_digit_number[1])
 print(firstDigit+secondDigit)
